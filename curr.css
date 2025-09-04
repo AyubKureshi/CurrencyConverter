@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("/currency.jpg");
+    background-image: url("currency.jpg");
     /* background-color: #f4e4ba; */
     background-repeat: no-repeat;
     background-size: cover;
