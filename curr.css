@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/currency.jpg");
+    /* background-color: #f4e4ba; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    /* background-color: white; */
+    padding: 2rem;
+    border: 1px solid rgb(0, 157, 255);
+    background-color: black;
+    border-radius: 1rem;
+    min-height: 40vh;
+    width: 40vh;
+    box-shadow: 10px 10px 20px rgba(235, 235, 249, 0.3);
+    color: white;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+
+}
+
+form input {
+    border: 1px solid rgb(0, 157, 255);
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 157, 255);
+}
+
+.dropdown i {
+    font-size: 1.15rem;
+    margin-top: 1rem;
+}
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+    background: transparent;
+    color: white;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+}
+form button {
+    height: 3rem;
+    border: 1px solid rgb(0, 157, 255);
+    background: transparent;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(0, 157, 255);
+}
+option {
+    background-color: white;
+    color: black;
+}
